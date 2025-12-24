@@ -1,5 +1,5 @@
 #include <iostream>
-#include "DoublyLinkedList.hpp"
+#include "DLL_doxygen.hpp"
 
 using namespace pk::jpo;
 using std::cout; using std::cin; using std::endl;
@@ -31,12 +31,6 @@ int main() {
     cout << "\nTest clear():\n";
     list.clear();
     list.print_forward();      // [ ]
-
-    cout<<"\nTest empty ig: \n";
-    if(list.empty()){
-        cout<<"fuqed"<<endl;
-    } else {
-        cout<<"not fuqed"<<endl;
-    }
     return 0;
 }
+
